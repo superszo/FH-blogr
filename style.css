@@ -29,7 +29,6 @@ nav {
     gap: 64px; 
     align-items: center;
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    overflow: hidden;
 }
 
 .menu {
@@ -87,8 +86,9 @@ nav {
 }
 
 .dropdown {
-    
     display: none;
+    height: auto;
+
 }
 
 .dropdown ul {
@@ -100,6 +100,7 @@ nav {
     left: -24px;
     width: 168px;
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.25);
+    height: auto;
 }
 
 
