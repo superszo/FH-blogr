@@ -5,6 +5,11 @@ let menu = document.getElementById("nav")
 burger.addEventListener("click", (e) => {
     e.stopPropagation();
     menu.classList.toggle("show");
+    if (menu.classList.contains("show"))
+        burger.setAttribute("src", "./images/icon-close.svg")
+    else {
+        burger.setAttribute("src", "./images/icon-hamburger.svg")
+    }
 })
 
 let menuItems = document.getElementsByClassName("drop")
